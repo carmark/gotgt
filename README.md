@@ -1,4 +1,5 @@
 ## gotgt [![Build Status](https://travis-ci.org/gostor/gotgt.svg)](https://travis-ci.org/gostor/gotgt)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarmark%2Fgotgt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarmark%2Fgotgt?ref=badge_shield)
 
 The gotgt project is a simple SCSI Target framework implemented in golang built for performance and density.
 Very briefly, this iSCSI/SCSI target Go implementation can be included/imported as a library to allow upper layer iSCSI clients to communicate to the actual SCSI devices. The target configuration is static with a json file for the time being. The core functionality of this target library provides the iSCSI/SCSI protocol services. A simple flat file based LUN target implementation is provided with plug-in interface. In the future, a formal plugin mechanism will be provided and supported to work with more sophisticated backend storage arrays.
@@ -59,3 +60,7 @@ The current roadmap and milestones for alpha and beta completion are in the gith
 ## Contributing
 
 Want to help build gotgt? Check out our [contributing documentation](./CONTRIBUTING.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarmark%2Fgotgt.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarmark%2Fgotgt?ref=badge_large)
